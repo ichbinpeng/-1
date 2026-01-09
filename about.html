@@ -1,60 +1,69 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>简介 - 黄桅的游戏世界</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 字体 -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- 样式 -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">首页</a></li>
-                <li><a href="about.html">简介</a></li>
-                <li><a href="gallery.html">击杀锦集</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <h1>关于黄桅</h1>
-        <div class="about-section">
-            <div class="about-image">
-                <img src="zp/黄桅.png" alt="黄桅个人照片" class="profile-photo">
-            </div>
-            <div class="about-content">
-                <section>
-                    <h2>个人介绍</h2>
-                    <p>姓名：黄桅</p>
-                    <p>职业：大连恒力工程项目部主任，公司栋梁之才</p>
-                    <p>毕业院校：吕梁帝国学院</p>
-                    <p>游戏ID：钢枪小天才</p>
-                    <p>擅长游戏：刺激战场</p>
-                    <p>个人特点：技术高超，意识一流，团队合作精神强</p>
-                    <p>游戏成就：刺激战场最高段位 - 无敌战神，KD值 8.5，吃鸡次数超过500次</p>
-                </section>
-                <section>
-                    <h2>游戏成就</h2>
-                    <ul>
-                        <li>刺激战场最高段位：无敌战神</li>
-                        <li>KD值：8.5</li>
-                        <li>吃鸡次数：超过500次</li>
-                        <li>多次获得城市级比赛冠军</li>
-                        <li>擅长钢枪战术，团队核心</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>征婚信息</h2>
-                    <p>目前正在寻找人生伴侣，期待与志同道合的你相遇。</p>
-                </section>
-            </div>
-        </div>
-    </main>
 
-    <footer>
-        <p>&copy; 2023 黄桅的游戏世界</p>
-    </footer>
+<header class="fade-down">
+    <nav>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="about.html" class="active">简介</a></li>
+            <li><a href="gallery.html">击杀锦集</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="fade-up">
+    <h1>关于黄桅</h1>
+
+    <div class="about-section">
+        <div class="about-image float">
+            <img src="zp/黄桅.png" alt="黄桅个人照片" class="profile-photo">
+        </div>
+
+        <div class="about-content">
+            <section class="card">
+                <h2>个人介绍</h2>
+                <p>姓名：黄桅</p>
+                <p>职业：大连恒力工程项目部主任，公司栋梁之才</p>
+                <p>毕业院校：吕梁帝国学院</p>
+                <p>游戏ID：钢枪小天才</p>
+                <p>擅长游戏：刺激战场</p>
+                <p>个人特点：技术高超，意识一流，团队合作精神强</p>
+            </section>
+
+            <section class="card delay">
+                <h2>游戏成就</h2>
+                <ul>
+                    <li>刺激战场最高段位：无敌战神</li>
+                    <li>KD值：8.5</li>
+                    <li>吃鸡次数：超过500次</li>
+                    <li>多次获得城市级比赛冠军</li>
+                    <li>团队核心选手</li>
+                </ul>
+            </section>
+
+            <section class="card delay2">
+                <h2>征婚信息</h2>
+                <p>目前正在寻找人生伴侣，期待与志同道合的你相遇。</p>
+            </section>
+        </div>
+    </div>
+</main>
+
+<footer class="fade-up">
+    <p>&copy; 2023 黄桅的游戏世界</p>
+</footer>
+
 </body>
 </html>
